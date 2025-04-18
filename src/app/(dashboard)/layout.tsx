@@ -12,7 +12,7 @@ export default function DashboardLayout({
   return (
     <div className="h-screen flex">
       {/* LEFT */}
-      <div className="w-[14%] md:w-[8%] xl:w-[14%]  p-4 bg-[#17080d]">
+      <div className="w-[16%] xl:w-[14%]  p-4 bg-[#17080d]">
         <Link href= "/" className="flex items-center justify-center lg:justify-start gap-2">
           <Image src="/hippo-logo.svg" alt="Logo" width={32} height={32}/>
           <span className="hidden lg:block">HippoDash</span>

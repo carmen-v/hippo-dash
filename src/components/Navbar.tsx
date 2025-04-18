@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/image"; 
 
 const Navbar: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="bg-black rounded-full w-7 h-7 flex items-center justify-center cursor-pointer relative">
             <Image src="/announcement.png" alt="Announcements" width={20} height={20} /> 
-            <div className="absolute -top-3 -right-3 w-5 h-5 text-center content-center items-center justify-center bg-purple-500 text-white rounded-full text-xs">1</div>
+            <div className="absolute -top-1 -right-3 w-4 h-4 text-center content-center items-center justify-center bg-purple-500 text-white rounded-full text-xs">1</div>
         </div>
         <div className="flex flex-col">
             <span className="text-xs leading-3 font-medium">Octav</span>
