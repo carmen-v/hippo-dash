@@ -1,4 +1,4 @@
-const CalendarPage = () => {
+const ShoppingListPage = () => {
     return (
         <div>
                     <div>
@@ -22,4 +22,4 @@ const CalendarPage = () => {
     );
 };
 
-export default CalendarPage
+export default ShoppingListPage
